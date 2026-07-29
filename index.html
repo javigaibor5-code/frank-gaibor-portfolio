@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frank Gaibor | Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__brand">Frank Gaibor</div>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p class="hero__eyebrow">Business Engineer &rarr; Software Developer in training</p>
+    <h1>Hi, I'm Frank Gaibor.</h1>
+    <p class="hero__lead">
+      I build practical software with a business mindset. Currently studying
+      Software Development while bringing hands-on experience in business
+      management to every project I create.
+    </p>
+    <div class="hero__actions">
+      <a href="#projects" class="btn btn--primary">View my projects</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About me</h2>
+    <p>
+      I'm a Business Management Engineer from Ecuador, currently studying a
+      Software Development degree (2nd of 5 semesters). I decided to combine
+      both fields because I believe the most valuable developers aren't just
+      people who write code — they're people who understand how that code
+      solves real business problems.
+    </p>
+    <p>
+      I'm actively building practical projects, learning by doing, and looking
+      for freelance work or junior opportunities where I can keep growing as a
+      developer while applying my business background.
+    </p>
+  </section>
+
+  <section class="section section--muted" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <p>HTML5, CSS3, JavaScript (DOM manipulation, events, localStorage)</p>
+      </div>
+      <div class="skill-card">
+        <h3>Business &amp; Analysis</h3>
+        <p>Process analysis, inventory &amp; data management, spreadsheets (Excel/Sheets)</p>
+      </div>
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <p>Git &amp; GitHub, VS Code, GitHub Pages</p>
+      </div>
+      <div class="skill-card">
+        <h3>Currently learning</h3>
+        <p>Backend fundamentals, databases, and JavaScript frameworks</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <span class="project-card__tag">Basic</span>
+        <h3>Calculator</h3>
+        <p>A fully functional calculator built with vanilla JavaScript, including keyboard support and error handling.</p>
+        <div class="project-card__links">
+          <a href="https://javigaibor5-code.github.io/calculadora-javascript/" target="_blank" rel="noopener">Live demo</a>
+          <a href="https://github.com/javigaibor5-code/calculadora-javascript" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-card__tag">Intermediate</span>
+        <h3>Inventory Management (CRUD)</h3>
+        <p>A complete CRUD system to manage product inventory, with search, low-stock alerts, and persistent storage.</p>
+        <div class="project-card__links">
+          <a href="https://javigaibor5-code.github.io/crud-inventory-javascript/" target="_blank" rel="noopener">Live demo</a>
+          <a href="https://github.com/javigaibor5-code/crud-inventory-javascript" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-card__tag">This site</span>
+        <h3>Personal Portfolio</h3>
+        <p>The website you're looking at right now — built to present myself and my work to recruiters and clients.</p>
+        <div class="project-card__links">
+          <a href="#" target="_blank" rel="noopener">Live demo</a>
+          <a href="#" target="_blank" rel="noopener">Code</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section section--muted" id="contact">
+    <h2>Let's work together</h2>
+    <p>I'm open to freelance projects and junior developer opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:your.email@example.com">✉️ your.email@example.com</a>
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener">💼 LinkedIn</a>
+      <a href="https://github.com/javigaibor5-code" target="_blank" rel="noopener">💻 GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; <span id="year"></span> Frank Gaibor — Portfolio Project 3
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
